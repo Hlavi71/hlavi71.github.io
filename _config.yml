@@ -1,12 +1,13 @@
-remote_theme: MicrosoftLearning/Jekyll-Theme
+theme: jekyll-theme-minimal
+#theme: jekyll-theme-slate
+title: Hlavi's homepage
 exclude:
   - readme.md
   - .github/
 header_pages:
   - index.html
-author: Microsoft Learning
-twitter_username: mslearning
-github_username:  MicrosoftLearning
+author: Hlavi
+github_username:  Hlavi71
 plugins:
   - jekyll-sitemap
   - jekyll-mentions
@@ -16,4 +17,3 @@ kramdown:
    syntax_highlighter_opts:
       disable : true
 
-theme: jekyll-theme-slate
